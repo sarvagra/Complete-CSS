@@ -1,0 +1,20 @@
+main{
+    /*pixel is an absolute unit*/
+    border:5px dotted brown;
+    /*% is a relatie unit*/
+    width:50%;
+}
+p{
+    border:5px dashed red;
+    /*view width is an aabsolute unit*/
+    width:50vw;
+    height: 30vh;
+    /*rem refers to root html*/
+    font-size: 3rem;
+}
+
+/*one em=16px*/
+h1{
+    /*em is parent relative and varies user to user as per their font settings*/
+    font-size: 3em;
+}

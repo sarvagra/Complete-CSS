@@ -1,0 +1,8 @@
+.box{
+    /*box->padding->border->margin*/
+    border:10px dotted purple;
+    padding:10px;
+    margin:20px;
+    width:100px;
+    height:50px;
+}

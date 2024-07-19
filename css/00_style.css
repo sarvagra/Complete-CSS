@@ -1,7 +1,35 @@
+
+/*universal selector*/
+* {
+    font-family:cursive;
+}
+/*element selector*/
+body {
+    font-size: 30px;
+}
+/*pseudo selector*/
+p:hover{
+    color:blueviolet;
+}
+/*id selector*/
 #first{
     color:red;
 }
-
+/*class selector*/
 .class2 {
     color:turquoise
 }
+
+/*group selector*/
+.class1, #new{
+    background-color:rgb(127, 250, 90);
+}
+/*nested selector*/
+.class3>#th{
+    color:crimson
+}
+/*!important increases precedency of a statement*/
+#first{
+    color:deeppink !important;
+}
+/*REMEMBER : id>class>element*/
