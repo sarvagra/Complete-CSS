@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+}
+
+.img1{
+    float:right;
+}
+
+.img2{
+    float:left;
+}
+/*this defines text to not to float on the right side*/
+.p2{
+    clear:right;
+}

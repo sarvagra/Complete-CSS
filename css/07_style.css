@@ -1,23 +1,21 @@
-.underline{
-    text-decoration: underline;
+.container0{
+    height:400px;
+    width:400px;
+    border: 2px solid black ;
+    overflow: visible;
 }
-.wavy{
-    text-decoration: underline wavy;
+
+.container{
+    height:400px;
+    width:400px;
+    border: 2px solid black ;
+    overflow: hidden;
 }
-.strike{
-    text-decoration: line-through;
-}
-.blur{
-    color:transparent;
-    text-shadow: 0 0 24px #000;
-}
-.io:hover{
-    color:blueviolet;
-    text-decoration:underline double ;
-    text-shadow: none;
-}
-.io{
-    color:transparent;
-    text-shadow: 0 0 24px #000;
+
+.container1{
+    height:400px;
+    width:400px;
+    border: 2px solid black ;
+    overflow: scroll;
 }
 
